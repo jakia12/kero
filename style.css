@@ -1,3 +1,61 @@
+/* modal start */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+  border-radius: 10px;
+}
+
+.modal-content {
+  background-color: white;
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hide the modal when not displayed */
+.hidden {
+  display: none;
+}
+
+#yesButton {
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#noButton {
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.button-group {
+  display: flex;
+  gap: 1rem; /* adds spacing between buttons */
+  justify-content: center; /* optional: center horizontally */
+  margin-top: 1rem;
+}
+
+.button-group button {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* modal end */
+
 .btn_cl {
   background-color: #ffffff;
   padding: 20px 24px 20px 24px;
